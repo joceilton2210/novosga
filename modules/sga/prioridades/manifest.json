@@ -1,0 +1,18 @@
+{
+    "type": 1,
+    "name": "Protoco de Machester",
+    "description": "Gerencie o protocolo de manchester no sistema",
+    "homepage": "http://novosga.org",
+    "authors": [
+        {
+            "name": "Leonardo Mauricio",
+            "email": "leomauricio7@gmail.com",
+            "homepage": "http://rogeriolino.com"
+        }
+    ],
+    "scripts": {
+        "post-install": [
+            "DataFixture::install"
+        ]
+    }
+}

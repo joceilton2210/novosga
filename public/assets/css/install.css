@@ -1,0 +1,61 @@
+.main-panel {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 100vh;
+  min-height: 100%;
+  float: right;
+  transition: all 0.3s;
+}
+.main-panel > .content {
+  padding: 0 !important;
+  min-height: calc(100% - 123px);
+  margin-top: 30px;
+  overflow: hidden;
+}
+.main-panel > .content-full {
+  padding: 0 !important;
+  min-height: calc(100% - 123px);
+  margin-top: 63px;
+  overflow: hidden;
+}
+.main-panel .page-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main-panel .page-header .page-title {
+  margin-bottom: 0;
+}
+.main-panel .page-header .btn-page-header-dropdown {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  padding: 0;
+  color: #6b6b6b;
+  box-shadow: 0 2px 14px 0 rgba(144, 116, 212, 0.1) !important;
+  border: 0;
+}
+.main-panel .page-header .btn-page-header-dropdown:after {
+  display: none;
+}
+.main-panel .page-header .dropdown-menu {
+  margin-top: 15px;
+  top: 0 !important;
+}
+.main-panel .page-header .dropdown-menu:after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  position: absolute;
+  top: -8px;
+  right: 32px;
+  content: "";
+}
+.main-panel .page-divider {
+  height: 0;
+  margin: 0.3rem 0 1rem;
+  overflow: hidden;
+  border-top: 1px solid #ebecec;
+}
